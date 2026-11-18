@@ -1,0 +1,9 @@
+services:
+  db:
+    networks:
+      planqr-local:
+        aliases: [db]
+
+networks:
+  planqr-local:
+    external: true

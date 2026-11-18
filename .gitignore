@@ -1,0 +1,9 @@
+/.production/
+/.local/
+**/.env
+**/.env.*
+!**/.env.example
+/postgres_data/
+*.dump
+*.pem
+*.key
